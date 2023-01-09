@@ -18,3 +18,20 @@
 **Criação do projeto Django**
 
 `django-admin startproject <nome-projeto> <caminho-onde-sera-criado>`
+
+## Estrutura de Pastas
+
+### `adote/`
+É a pasta `core` do projeto, onde ficará as configurações iniciais
+
+### `adote/asgi.py`
+`Asynchronous Server Get Interface` utilizado para deploy da aplicação
+
+### `adote/settings.py`
+Configurações básicas do projeto
+
+### `adote/urls.py`
+Responsável por criar os `endpoints` da aplicação
+
+### `adote/wsgi.py`
+`Web Server Get Interface` utilizado para deploy da aplicação
