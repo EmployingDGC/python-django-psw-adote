@@ -21,6 +21,15 @@
 
 ## Estrutura de Pastas
 
+### `manager.py`
+É o `cli` da aplicação, utilizado sempre que precisar executar algum comando
+
+`python manager.py <command>`
+
+**Exemplo:**
+`python manager.py run server` Rodar o servidor
+`python manager.py migrate` Executar migrações
+
 ### `adote/`
 É a pasta `core` do projeto, onde ficará as configurações iniciais
 
